@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head lang="zxx">
+    <title>RealRap</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Game Warrior Template">
+    <meta name="keywords" content="warrior, game, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link href="{% static 'rep_app/images/favicon.ico' %}" rel="shortcut icon">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="{% static 'rep_app/css/bootstrap.min.css' %}"/>
+    <link rel="stylesheet" href="{% static 'rep_app/css/font-awesome.min.css' %}"/>
+    <link rel="stylesheet" href="{% static 'rep_app/css/owl.carousel.css' %}"/>
+    <link rel="stylesheet" href="{% static 'rep_app/css/style.css' %}"/>
+    <link rel="stylesheet" href="{% static 'rep_app/css/animate.css' %}"/>
+    <link rel="stylesheet" href="{% static 'rep_app/css/zaurstyles.css' %}"/>
+
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+<div id="preloder" style="display: none;">
+    <div class="loader" style="display: none;"></div>
+</div>
+
+<header class="header-section">
+    <div class="container">
+        <a class="site-logo site_logo_effect" href="/"><img src="{% static 'rep_app/images/Raplogo.png' %}" width='175' alt=""></a>
+
+        <div class="user-panel site_reg">
+            <a href="/">Войти</a> / <a href="/">Регистрация</a>
+        </div>
+
+        <div class="nav-switch">
+            <i class="fa fa-bars"></i>
+        </div>
+
+        <nav class="main-menu">
+            <ul>
+                <li><a class="site_header_effect" href="/profile">Профиль</a></li>
+                <li><a class="site_header_effect" href="/lessons">Уроки</a></li>
+                <li><a class="site_header_effect" href="/">Что-то</a></li>
+                <li><a class="site_header_effect" href="/rate">Рейтинг</a></li>
+                <li><a class="site_header_effect" href="advices">Предложения</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="hero-section">
+    <div class="hero-slider owl-carousel">
+        <div class="hs-item set-bg" data-setbg="{% static 'rep_app/images/oxxxy.jpg' %}">
+            <div class="hs-text">
+                <div class="container justify-content-center">
+                    <div class="col justify-content-center">
+                        <div class="row justify-content-center">
+                            <h2 style="text-align: center">Добро пожаловать в <span>ЛОГОВО ТРУ РЕПА!</span></h2>
+                        </div>
+                        <div class="row justify-content-center">
+                            <p style="text-align: center; color: white; font-size: medium">
+                                Здесь есть префессиональные уроки репа от самых успешных деятелей.<br>
+                                Уроки <span>Battle</span> репа, после которых вы разнесёте даже такого исполнителя как
+                                OXXYMIRON<br>
+                                И много всего другого!
+                            </p>
+                        </div>
+                        <div class="row justify-content-center">
+                            <a href="/lessons" class="site-btn" id="zaur_style">
+                                Стать True Репером
+                            </a>
+                        </div>
+                        <div class="row justify-content-center">
+                            <a href="#" class="site-btn" id="zaur_style">
+                                Стать Battle Репером
+                            </a>
+                        </div>
+                        <div class="row justify-content-center">
+                            <a href="#" class="site-btn" id="rashid_style">
+                                Почилить реально
+                                тупа адихаю .!. HAi...
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hs-item set-bg" data-setbg="{% static 'rep_app/images/debiki.jpg' %}">
+            <div class="hs-text">
+                <div class="container justify-content-center">
+                    <div class="col justify-content-center">
+                        <div class="row justify-content-center">
+                            <h2 style="text-align: center">Добро пожаловать в <span>ЛОГОВО ТРУ РЕПА!</span></h2>
+                        </div>
+                        <div class="row justify-content-center">
+                            <p style="text-align: center; color: white; font-size: medium">
+                                Здесь есть префессиональные уроки репа от самых успешных деятелей.<br>
+                                Уроки <span>Battle</span> репа, после которых вы разнесёте даже такого исполнителя как
+                                OXXYMIRON<br>
+                                И много всего другого!
+                            </p>
+                        </div>
+                        <div class="row justify-content-center">
+                            <a href="#" class="site-btn" id="zaur_style">
+                                Стать True Репером
+                            </a>
+                        </div>
+                        <div class="row justify-content-center">
+                            <a href="#" class="site-btn" id="zaur_style">
+                                Стать Battle Репером
+                            </a>
+                        </div>
+                        <div class="row justify-content-center">
+                            <a href="#" class="site-btn" id="rashid_style">
+                                Почилить реально
+                                тупа адихаю .!. HAi...
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Hero section end -->
+<div class="latest-news-section">
+    <div class="ln-title">Наши учителя:</div>
+    <div class="news-ticker">
+        <div class="news-ticker-contant">
+            <div class="nt-item"><span class="new">mc.bread</span>Эксперт по текстам, автор уроков по трекам
+            </div>
+            <div class="nt-item"><span class="strategy">Lil TokmcTik228</span>Профессиональный battle репер, автор
+                уроков по battle rap
+            </div>
+            <div class="nt-item"><span class="racing">german</span>Успешный репер, дает советы, как профессионал
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="recent-game-section spad set-bg" data-setbg="{% static 'rep_app/images/v_ban_drugan.png' %}">
+    <div class="container">
+        <div class="section-title">
+            <div class="cata new">Топ Реперы</div>
+            <h2>Кого вы считаете лучшим репером за всю историю?</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="recent-game-item">
+                    <div class="rgi-thumb set-bg" data-setbg="{% static 'rep_app/images/german.png' %}">
+                        <div class="cata new">GeRmaN</div>
+                    </div>
+                    <div class="rgi-content">
+                        <h5>Смертельный ФЛоу, Больной фристайл</h5>
+                        <p>Вынес в хлам половину известных реперов. Вот некоторые их них:</p>
+                        <p style="color: #20c997">Oxxymiron, Flangizzle, Соня Мармеладова</p>
+                        <a href="/" class="comment">3 Comments</a>
+                        <div class="rgi-extra">
+                            <div class="rgi-star"><img src="{% static 'rep_app/img/icons/star.png' %}" alt=""></div>
+                            <div class="rgi-heart"><img src="{% static 'rep_app/img/icons/heart.png' %}" alt=""></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="recent-game-item">
+                    <div class="rgi-thumb set-bg" data-setbg="{% static 'rep_app/images/mc_valera_borov.png' %}">
+                        <div class="cata new">MC.BOROV</div>
+                    </div>
+                    <div class="rgi-content">
+                        <h5>Самая высокая скорость Фристайла в мире</h5>
+                        <p>может репануться в любой день и любое время одинаково качаственно</p>
+                        <p style="color: #20c997">Стабильный профессионал</p>
+                        <a href="/" class="comment">5 Comments</a>
+                        <div class="rgi-extra">
+                            <div class="rgi-star"><img src="{% static 'rep_app/img/icons/star.png' %}" alt=""></div>
+                            <div class="rgi-heart"><img src="{% static 'rep_app/img/icons/heart.png' %}" alt=""></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="recent-game-item">
+                    <div class="rgi-thumb set-bg" data-setbg="{% static 'rep_app/images/face.png' %}">
+                        <div class="cata new">FACE</div>
+                    </div>
+                    <div class="rgi-content">
+                        <h5>Самый сильный БАСС на районе, песни из 3-х 4-х слов</h5>
+                        <p>Бродяга безработный, но притворяется богатым</p>
+                        <p style="color: #20c997">Патриот</p>
+                        <a href="/" class="comment">3 Comments</a>
+                        <div class="rgi-extra">
+                            <div class="rgi-star"><img src="{% static 'rep_app/img/icons/star.png' %}" alt=""></div>
+                            <div class="rgi-heart"><img src="{% static 'rep_app/img/icons/heart.png' %}" alt=""></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer class="footer-section">
+    <div class="container">
+        <ul class="footer-menu">
+            <li><a href="/"></a>rap</li>
+            <li><a href="/"></a>rap</li>
+            <li><a href="/"></a>rap</li>
+            <li><a href="/"></a>rap</li>
+            <li><a href="/"></a>rap</li>
+        </ul>
+        <p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+            Все маи права защищены!!! | Не вздумай воровать гадюка!!! <i class="fa fa-heart-o" aria-hidden="true"></i>
+            by <a href="https://youtu.be/4rW7xvCpr1o" target="_blank">Спасибо =)</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        </p>
+    </div>
+</footer>
+
+
+<script src="{% static 'rep_app/js/jquery-3.2.1.min.js' %}"></script>
+<script src="{% static 'rep_app/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'rep_app/js/owl.carousel.min.js' %}"></script>
+<script src="{% static 'rep_app/js/jquery.marquee.min.js' %}"></script>
+<script src="{% static 'rep_app/js/main.js' %}"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+</html>
