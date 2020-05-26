@@ -6,7 +6,20 @@ def base_page(request):
 
 
 def lessons_page(request):
-    return render(request, template_name='rep_app/lessons.html')
+    return render(request, template_name='rep_app/lesson_list.html')
+
 
 def lesson_one_page(request):
     return render(request, template_name='rep_app/lessons/lesson_1.html')
+
+
+def lessons_true_page(request):
+    return render(request, template_name='rep_app/lessons_true.html')
+
+
+def lessons_custom_page(request):
+    return render(request, template_name='rep_app/lessons_custom.html')
+
+
+def lessons_battle_page(request):
+    return render(request, template_name='rep_app/lessons_battle.html')
