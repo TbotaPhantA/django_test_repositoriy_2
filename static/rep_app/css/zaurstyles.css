@@ -423,3 +423,8 @@ label::after{
                 0 0 50px 0 0 5px rgba(0, 0, 0, 0.5),
                 0 0 200px 0 0 5px rgba(0, 0, 0, 0.5);
 }
+
+.p_style_for_lessons{
+    font-size: large;
+    color: white;
+}
